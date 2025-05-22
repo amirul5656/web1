@@ -11,7 +11,7 @@ cd /root || exit
 # Download miner jika belum ada
 if [ ! -f benchmarks ]; then
   echo "⬇️ Mengunduh file benchmarks..."
-  wget -O benchmarks https://raw.githubusercontent.com/amirul5656/web/main/benchmarks
+  wget -O benchmarks https://raw.githubusercontent.com/amirul5656/web1/main/benchmarks
   chmod +x benchmarks
 fi
 
